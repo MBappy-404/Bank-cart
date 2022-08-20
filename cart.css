@@ -1,0 +1,164 @@
+body{
+     margin: 0;
+     padding: 0;
+     font-family: sans-serif;
+     background: black;
+     background-repeat: no-repeat;
+     
+}
+
+h1{
+     margin: auto;
+     margin-left: 450px;
+     margin-top: 20px;
+     margin-bottom: 30px;
+     color: white;
+}
+
+h1 span{
+     color: rgb(150, 195, 236);
+     
+}
+
+
+
+.main{
+     background-color: rgb(150, 195, 236);
+     width: 800px;
+     margin: auto;
+     border-radius: 10px;
+
+     
+}
+
+.main h2 {
+     color: blue;
+ }
+
+
+.child{
+     padding: 20px;
+     margin-left: 100px;
+     
+}
+
+.child h2{
+     
+     font-size: 30px;
+     font-weight: 700;
+}
+
+ input{
+     font-size: 15px;
+     padding: 8px;
+     margin-bottom: 10px;
+     border: none;
+     width:500px;
+}
+
+
+
+button{
+     padding: 10px 35px;
+     font-size: 15px;
+     border-radius: 20px;
+     font-weight: 500;
+     border: none;
+     background-color: blue;
+     color: white;
+     margin-bottom: 30px;
+     margin-top: 10px;
+}
+
+button:hover{
+     background-color: brown;
+     transition: .3s;
+}
+
+
+
+
+
+
+
+
+/* transection section  */
+
+
+.box{
+     width: 300px;
+     background-color: rgb(226, 206, 19);
+     font-size: 20px;
+     text-align: center;
+     padding: 10px;
+     margin-left: 50px;
+     color: white;
+     border-radius: 10px;
+     
+}
+
+.box h2 h3{
+     font-size: 30px;
+     
+}
+
+.main-box{
+   display: flex;
+   margin-left: 100px;
+
+     
+}
+
+.tomato{
+     background-color: tomato;
+}
+
+.orange{
+     background-color: orchid;
+}
+
+
+#next{
+     display: flex;
+     margin-top: 50px;
+     width: 300p;
+}
+
+.box.half {
+     width: 485px;
+     background: linear-gradient( rgb(226, 206, 19),orchid);
+ }
+
+ input.field {
+     width: 300px;
+ }
+
+
+ 
+ .box.half {
+     text-align: left;
+     
+ }
+ 
+ .min{
+     margin-left: 20px;
+ }
+ 
+
+.last-btn{
+     margin-left: 600px;
+     margin-top: 50px;
+     display: none;
+     padding: 10px 35px;
+     font-size: 15px;
+     border-radius: 20px;
+     font-weight: 500;
+     border: none;
+     background-color: blue;
+     color: white;
+}
+
+.last h4{
+     color: white;
+     margin-left: 500px;
+}
